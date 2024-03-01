@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 139598120}
   - component: {fileID: 139598119}
   m_Layer: 0
-  m_Name: r (7)
+  m_Name: obstacle8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -250,11 +250,11 @@ Transform:
   m_GameObject: {fileID: 139598118}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -73.4, y: 14, z: 375.7}
+  m_LocalPosition: {x: 158.94568, y: -12.227737, z: 293.81604}
   m_LocalScale: {x: 173.56282, y: 36.62467, z: 4.4914}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1558699681}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &315537576
 PrefabInstance:
@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 611578833}
   - component: {fileID: 611578832}
   m_Layer: 0
-  m_Name: r (1)
+  m_Name: 'obstacle1 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -474,11 +474,11 @@ Transform:
   m_GameObject: {fileID: 611578831}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -73.4, y: 91.7, z: 20.1}
+  m_LocalPosition: {x: 158.94568, y: 65.47226, z: -61.78399}
   m_LocalScale: {x: 154.85374, y: 27.993006, z: 4.4914}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1558699681}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -606,7 +606,7 @@ GameObject:
   - component: {fileID: 888595785}
   - component: {fileID: 888595784}
   m_Layer: 0
-  m_Name: r (2)
+  m_Name: obstacle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -719,11 +719,11 @@ Transform:
   m_GameObject: {fileID: 888595783}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -73.4, y: 43.6, z: 102.4}
+  m_LocalPosition: {x: 158.94568, y: 17.372261, z: 20.516014}
   m_LocalScale: {x: 167.93694, y: 33.837135, z: 4.4914}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1558699681}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -954,6 +954,45 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1558699680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1558699681}
+  m_Layer: 0
+  m_Name: Obstacles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1558699681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558699680}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -232.34567, y: 26.227737, z: 81.88399}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1907854421}
+  - {fileID: 611578836}
+  - {fileID: 888595788}
+  - {fileID: 1674537674}
+  - {fileID: 2077022136}
+  - {fileID: 2021461256}
+  - {fileID: 1627835659}
+  - {fileID: 139598123}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1627835654
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,7 +1007,7 @@ GameObject:
   - component: {fileID: 1627835656}
   - component: {fileID: 1627835655}
   m_Layer: 0
-  m_Name: r (6)
+  m_Name: obstacle7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1081,11 +1120,11 @@ Transform:
   m_GameObject: {fileID: 1627835654}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -73.4, y: 99.6, z: 375.7}
+  m_LocalPosition: {x: 158.94568, y: 73.37226, z: 293.81604}
   m_LocalScale: {x: 167.93694, y: 36.62467, z: 4.4914}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1558699681}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1674537669
 GameObject:
@@ -1101,7 +1140,7 @@ GameObject:
   - component: {fileID: 1674537671}
   - component: {fileID: 1674537670}
   m_Layer: 0
-  m_Name: r (5)
+  m_Name: obstacle5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1214,11 +1253,11 @@ Transform:
   m_GameObject: {fileID: 1674537669}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -73.4, y: 45.2, z: 277.3}
+  m_LocalPosition: {x: 158.94568, y: 18.972263, z: 195.416}
   m_LocalScale: {x: 167.93694, y: 45.622986, z: 4.4914}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1558699681}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1907854416
 GameObject:
@@ -1234,7 +1273,7 @@ GameObject:
   - component: {fileID: 1907854417}
   - component: {fileID: 1907854422}
   m_Layer: 0
-  m_Name: r
+  m_Name: obstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1326,11 +1365,11 @@ Transform:
   m_GameObject: {fileID: 1907854416}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -80.84762, y: 10.67358, z: 20.1}
+  m_LocalPosition: {x: 151.49805, y: -15.554157, z: -61.78399}
   m_LocalScale: {x: 207.64815, y: 28.547323, z: 4.4914}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1558699681}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1907854422
 BoxCollider:
@@ -1440,7 +1479,7 @@ GameObject:
   - component: {fileID: 2021461253}
   - component: {fileID: 2021461252}
   m_Layer: 0
-  m_Name: r (4)
+  m_Name: obstacle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1553,11 +1592,11 @@ Transform:
   m_GameObject: {fileID: 2021461251}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -73.4, y: 95.3, z: 186}
+  m_LocalPosition: {x: 158.94568, y: 69.072266, z: 104.11601}
   m_LocalScale: {x: 167.93694, y: 36.62467, z: 4.4914}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1558699681}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2077022131
 GameObject:
@@ -1573,7 +1612,7 @@ GameObject:
   - component: {fileID: 2077022133}
   - component: {fileID: 2077022132}
   m_Layer: 0
-  m_Name: r (3)
+  m_Name: obstacle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1686,11 +1725,11 @@ Transform:
   m_GameObject: {fileID: 2077022131}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -73.4, y: 10.9, z: 186}
+  m_LocalPosition: {x: 158.94568, y: -15.327738, z: 104.11601}
   m_LocalScale: {x: 167.93694, y: 36.62467, z: 4.4914}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1558699681}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -1701,11 +1740,4 @@ SceneRoots:
   - {fileID: 315537576}
   - {fileID: 1131367975}
   - {fileID: 1980618027}
-  - {fileID: 1907854421}
-  - {fileID: 611578836}
-  - {fileID: 888595788}
-  - {fileID: 1674537674}
-  - {fileID: 2077022136}
-  - {fileID: 2021461256}
-  - {fileID: 1627835659}
-  - {fileID: 139598123}
+  - {fileID: 1558699681}
